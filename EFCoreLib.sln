@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A986EC20-E6A9-489D-BEAD-B9EB621BFFA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.App", "src\EFCore.App\EFCore.App.csproj", "{5E3E6ACB-9B3E-4546-BFD5-B1584DE266EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.Lib", "src\EFCore.Lib\EFCore.Lib.csproj", "{71985FDB-7C52-46D4-A9E2-68D29EDBDE3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E3E6ACB-9B3E-4546-BFD5-B1584DE266EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E3E6ACB-9B3E-4546-BFD5-B1584DE266EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E3E6ACB-9B3E-4546-BFD5-B1584DE266EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E3E6ACB-9B3E-4546-BFD5-B1584DE266EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71985FDB-7C52-46D4-A9E2-68D29EDBDE3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71985FDB-7C52-46D4-A9E2-68D29EDBDE3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71985FDB-7C52-46D4-A9E2-68D29EDBDE3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71985FDB-7C52-46D4-A9E2-68D29EDBDE3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E3E6ACB-9B3E-4546-BFD5-B1584DE266EF} = {A986EC20-E6A9-489D-BEAD-B9EB621BFFA7}
+		{71985FDB-7C52-46D4-A9E2-68D29EDBDE3D} = {A986EC20-E6A9-489D-BEAD-B9EB621BFFA7}
+	EndGlobalSection
+EndGlobal
